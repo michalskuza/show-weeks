@@ -1,5 +1,6 @@
+var moment = require('moment');
+
 function displayWeeks(start, end, n) {
-    var moment = require('moment');
 
     function format(date){
         return date.format("DD.MM.YYYY")
