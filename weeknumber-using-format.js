@@ -5,8 +5,11 @@ function format(date) {
 }
 
 function displayWeeks(start, n) {
-    for (var i = 0; i < n; i++) {
-        console.log('#' + moment(start).day(1 + 7 * i).isoWeek() + ': ' + format(moment(start).day(7 * i + 1)) + ' - ' + format(moment(start).day(7 * i + 7)));
+	var weeks = getWeeks(start, n);
+
+    for (var i = 0; i < weeks.length; i++) {
+    	var week = weeks[i];
+        console.log('#' + week.no + ': ' + week.monday + ' - ' + week.sunday);
     }
 }
 
