@@ -1,0 +1,22 @@
+{
+  "name": "show-weeks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "weeknumber-using-format.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michalskuza/show-weeks.git"
+  },
+  "author": "Michal Skuza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michalskuza/show-weeks/issues"
+  },
+  "homepage": "https://github.com/michalskuza/show-weeks#readme",
+  "dependencies": {
+    "moment": "^2.14.1"
+  }
+}
